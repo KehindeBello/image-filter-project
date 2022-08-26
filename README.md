@@ -10,3 +10,6 @@ A basic Ionic client web application which consumes the RestAPI Backend. [Covere
 
 ## ENDPOINT URL FOR THE ELASTIC BEANSTALK DEPLOYMENT OF THE MICROSERVICE
 http://image-filter-project-dev.us-east-1.elasticbeanstalk.com/
+
+## GITHUB URL
+https://github.com/KehindeBello/image-filter-project
