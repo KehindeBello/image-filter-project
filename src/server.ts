@@ -19,7 +19,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       //try to process the image if the query parameter is correct
       try {
       const filtered_url = await filterImageFromURL(image_url);
-      res.status(200).sendFile(filtered_url);
+      res.status(200).send(filtered_url);
       res.end();
       //catch errors like, inaccesible url
       }catch (err) {
